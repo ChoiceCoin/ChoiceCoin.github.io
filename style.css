@@ -1,0 +1,169 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headershit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.headS {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  z-index: 5;
+  justify-content: space-between;
+}
+
+@media (max-width: 617px) {
+  .headershit {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .headS {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    z-index: 5;
+    justify-content: space-between;
+  }
+
+  .videoBackground video {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    min-width: 1000px;
+    opacity: 0.9;
+  }
+  .textContents {
+    width: 300px;
+    height: 200px;
+    justify-self: center;
+  }
+  .overlay {
+    min-width: 1000px;
+    position: absolute;
+    background: rgb(30, 119, 170);
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+  }
+  .body {
+    min-width: 1000px;
+  }
+  .menuId {
+    width: 30px;
+    height: 30px;
+  }
+}
+.menuId {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+.videoBackground video {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.videoBackground {
+  display: flex;
+}
+.videoBackground .text {
+  color: white;
+  position: relative;
+  padding: 50px 100px;
+  padding-top: 120px;
+  z-index: 20;
+}
+.textContents {
+  width: 400px;
+  height: 300px;
+  justify-self: center;
+}
+.nameH1 {
+  font-size: 40px;
+}
+.nav .hidden {
+  display: none;
+}
+
+.menuId .close {
+  display: none;
+}
+.buttonShit {
+  font-size: 1rem;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0.4rem;
+  background: transparent;
+  color: rgb(130, 191, 209);
+}
+.overlay {
+  position: absolute;
+  background: rgb(30, 119, 170);
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+.nav a {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.nav {
+  padding: 10px;
+  margin-top: 30px;
+}
+.nav :hover {
+  color: rgb(102, 147, 214);
+}
+.learnA {
+  transition: transform 450ms;
+  display: flex;
+  justify-content: center;
+  margin-top: -290px;
+  top: 0;
+  padding-left: 40px;
+}
+.learnA button {
+  width: 150px;
+  color: white;
+  margin-right: 50px;
+  height: 50px;
+  z-index: 3000;
+  background: rgb(0, 0, 0);
+}
+
+.mainPart {
+  border-radius: 25px;
+  padding: 20px;
+  width: 60%;
+  margin-top: 20px;
+  height: 600px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.lastPart ul li :hover {
+  transform: scale(1.09);
+}
+
+.mainnn {
+  z-index: 4003;
+}
