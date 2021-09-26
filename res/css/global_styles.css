@@ -47,6 +47,50 @@ NAVBAR FIX
   display: flex;
 }
 
+/*############ Slide info FIX ###########*/
+
+.slide-con{
+  width: 100%;
+  padding: 60px 0px;
+  height:70vh;
+  background: url('https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlnaHQlMjBza3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80');
+}
+
+.row-div{
+  width:1020px;
+  margin: 0px auto;
+}
+
+.slide-title{
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top:40px;
+  align-items: center;
+  text-align:center;
+  color: #fff;
+}
+
+.slide-p-div{
+  width:900px;
+  margin:0 auto;
+}
+
+
+.slide-pa{
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: capitalize;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin: 20px 0px;
+}
+
+.slide-btn{
+  margin-top:30px;
+}
+
 /*
 INDEX JUMBOTRON
 */
