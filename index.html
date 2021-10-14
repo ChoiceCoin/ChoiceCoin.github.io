@@ -4,12 +4,14 @@
 
   <!-- Head Info -->
   <head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Choice Coin</title>
     <link rel="icon" type="image/png" href="https://siasky.net/EAD8NJMejpi-MCtxdtuxtyS6xYdKPtoX55mslejYCQyl_w/" />
     <link rel="stylesheet" href="res/css/global_styles.css" />
     <link rel="stylesheet" href="res/css/animate.min.css" />
     <link rel="stylesheet" href="res/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css">
+    {% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css"> {% endcomment %}
     <!-- Small CSS to Hide elements at 1520px size -->
     <style>
         @media(max-width:1520px) {
@@ -38,85 +40,34 @@
   <body class="animate__animated animate__fadeIn">
 
     <!-- Navbar Structure -->
-    <header class="relative z-50 w-full h-24">
-        <div
-            class="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
-            <img src = "https://siasky.net/EAD8NJMejpi-MCtxdtuxtyS6xYdKPtoX55mslejYCQyl_w/" width = "50" height = "50">
-            <a href="/" class="relative flex items-center inline-block h-5 h-full font-black leading-none">
-                <span class="ml-3 text-xl text-gray-800">Choice Coin</span>
-            </a>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
+    <!-- Navbar Structure -->
+        
+      <header>
+      <div class="m-4" id="nav-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid" id="nav-flex">
+            <a href="/" class="navbar-brand" id="main-logo">
+              <img src="https://siasky.net/EAD8NJMejpi-MCtxdtuxtyS6xYdKPtoX55mslejYCQyl_w/" width="50" height="50"
+                alt="Logo">
 
-            <nav id="nav"
-                class="absolute top-0 left-0 z-50 flex flex-col items-center justify-between hidden w-full h-64 pt-5 mt-24 text-sm text-gray-800 bg-white border-t border-gray-200 md:w-auto md:flex-row md:h-24 lg:text-base md:bg-transparent md:mt-0 md:border-none md:py-0 md:flex md:relative">
-                <a href="/"
-                    class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Home</a>
-                <a href="documentation.html"
-                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Papers on Choice-Coin</a>
-                <a href="About.html"
-                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">About</a>
-                <a href="participation.html"
-                    class="font-bold duration-100 transition-color hover:text-indigo-600">Participate</a>
-                <div class="flex flex-col block w-full font-medium border-t border-gray-200 md:hidden">
-                </div>
-            </nav>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-          <div>
-            </div>
-
-            <div id="nav-mobile-btn"
-                class="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none md:hidden sm:mt-10">
-                <span class="block w-full h-1 mt-2 duration-200 transform bg-gray-800 rounded-full sm:mt-1"></span>
-                <span class="block w-full h-1 mt-1 duration-200 transform bg-gray-800 rounded-full"></span>
-            </div>
-
-        </div>
+              Choice Coin
+              </a>
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="nav-details">
+              <div class="navbar-nav">
+                <a href="/" class="nav-item nav-link active">Home</a>
+                <a href="documentation.html" class="nav-item nav-link">Documentations</a>
+                <a href="About.html" class="nav-item nav-link">About</a>
+                <a href="participation.html" class="nav-item nav-link">Participate</a>
+              </div>
+              </div>
+             </div>
+        </nav>
+      </div>
     </header>
-
     <!-- Page Content Container -->
     <div class="container-fluid base-padding">
 

@@ -1,162 +1,117 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choice Coin</title>
-    <link rel="icon" type="image/png" href="https://siasky.net/EAD8NJMejpi-MCtxdtuxtyS6xYdKPtoX55mslejYCQyl_w/" />
-    <!--
-        For more customization options, we would advise
-        you to build your TailwindCSS from the source.
-        https://tailwindcss.com/docs/installation
-    -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css">
-    <!-- Small CSS to Hide elements at 1520px size -->
-    <style>
-        @media(max-width:1520px) {
-            .left-svg {
-                display: none;
-            }
-        }
+    <head>
+        <link rel="icon" type="image/png" href="https://siasky.net/EAD8NJMejpi-MCtxdtuxtyS6xYdKPtoX55mslejYCQyl_w/"/>
+            <link rel="stylesheet" href="res/css/global_styles.css"/>
+            <link rel="stylesheet" href="res/css/animate.min.css"/>
+            <link rel="stylesheet" href="res/css/bootstrap.min.css"/>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Choice Coin</title>
+            <!--
+                For more customization options, we would advise
+                you to build your TailwindCSS from the source.
+                https://tailwindcss.com/docs/installation
+            -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css">
+            <!-- Small CSS to Hide elements at 1520px size -->
+            <style>
+                @media(max-width:1520px) {
+                    .left-svg {
+                        display: none;
+                    }
+                }
 
-        /* small css for the mobile nav close */
-        #nav-mobile-btn.close span:first-child {
-            transform: rotate(45deg);
-            top: 4px;
-            position: relative;
-            background: #a0aec0;
-        }
+                /* small css for the mobile nav close */
+                #nav-mobile-btn.close span:first-child {
+                    transform: rotate(45deg);
+                    top: 4px;
+                    position: relative;
+                    background: #a0aec0;
+                }
 
-        #nav-mobile-btn.close span:nth-child(2) {
-            transform: rotate(-45deg);
-            margin-top: 0px;
-            background: #a0aec0;
-        }
-    </style>
-</head>
-<body class="overflow-x-hidden antialiased">
-    <!-- Header Section -->
-    <header class="relative z-50 w-full h-24">
-        <div
-            class="container flex items-center justify-center h-full max-w-6xl px-8 mx-auto sm:justify-between xl:px-0">
-            <img src = "https://siasky.net/EAD8NJMejpi-MCtxdtuxtyS6xYdKPtoX55mslejYCQyl_w/" width = "50" height = "50">
-            <a href="/" class="relative flex items-center inline-block h-5 h-full font-black leading-none">
-                <span class="ml-3 text-xl text-gray-800">Choice Coin</span>
-            </a>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
-            <div>
-            </div>
+                #nav-mobile-btn.close span:nth-child(2) {
+                    transform: rotate(-45deg);
+                    margin-top: 0px;
+                    background: #a0aec0;
+                }
+            </style>
+    </head>
+    <body class="overflow-x-hidden antialiased">
+            <!-- Header Section -->
+        <header>
+            <div class="m-4" id="nav-header">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid" id="nav-flex">
+                    <a href="/" class="navbar-brand" id="main-logo">
+                    <img src="https://siasky.net/EAD8NJMejpi-MCtxdtuxtyS6xYdKPtoX55mslejYCQyl_w/" width="50" height="50"
+                        alt="Logo">
 
-            <nav id="nav"
-                class="absolute top-0 left-0 z-50 flex flex-col items-center justify-between hidden w-full h-64 pt-5 mt-24 text-sm text-gray-800 bg-white border-t border-gray-200 md:w-auto md:flex-row md:h-24 lg:text-base md:bg-transparent md:mt-0 md:border-none md:py-0 md:flex md:relative">
-                <a href="/"
-                    class="ml-0 mr-0 font-bold duration-100 md:ml-12 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Home</a>
-                <a href="documentation.html"
-                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">Papers on Choice Coin</a>
-                <a href="About.html"
-                    class="mr-0 font-bold duration-100 md:mr-3 lg:mr-8 transition-color hover:text-indigo-600">About</a>
-                <a href="participation.html"
-                    class="font-bold duration-100 transition-color hover:text-indigo-600">Participate</a>
-                <div class="flex flex-col block w-full font-medium border-t border-gray-200 md:hidden">
-                </div>
-            </nav>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-<div>
-</div>
-          <div>
+                    Choice Coin
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="nav-details">
+                    <div class="navbar-nav">
+                        <a href="/" class="nav-item nav-link active">Home</a>
+                        <a href="documentation.html" class="nav-item nav-link">Documentations</a>
+                        <a href="About.html" class="nav-item nav-link">About</a>
+                        <a href="participation.html" class="nav-item nav-link">Participate</a>
+                    </div>
+                    </div>
+                    </div>
+                </nav>
             </div>
+            </header>
+            <!-- End Header Section-->
 
-            <div id="nav-mobile-btn"
-                class="absolute top-0 right-0 z-50 block w-6 mt-8 mr-10 cursor-pointer select-none md:hidden sm:mt-10">
-                <span class="block w-full h-1 mt-2 duration-200 transform bg-gray-800 rounded-full sm:mt-1"></span>
-                <span class="block w-full h-1 mt-1 duration-200 transform bg-gray-800 rounded-full"></span>
-            </div>
+            <!-- BEGIN HERO SECTION -->
+            <div class="relative items-center justify-center w-full overflow-x-hidden lg:pt-40 lg:pb-40 xl:pt-40 xl:pb-64">
+                <div
+                    class="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
+                    <div
+                        class="z-30 flex flex-col items-center w-full max-w-xl pt-48 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
+                        <h1 class="relative mb-4 text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8">About</h1>
+                        <p class="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Choice Coin is a governance token and open source software for decentralized voting. The Choice Coin Network is prioritizing democracy, and will incentivize its participants
+                    to help it fundamentally change how decisions are made on a large scale. Choice Coin solves the decentralized voting problem by introducing a digital asset for voting on a distributed ledger.</p>
+                    <br>
+                    <p class="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Choice Coin is also entirely open-source, with no formal structure or entity attached to it. Fortior Blockchain, a startup building on Algorand, is the team who developed Choice Coin. However, further development and leadership has become entirely open source. As time goes on, Foritor hopes to further decentralize the Choice Coin Network and allow the community to fully take it over.</p>
 
-        </div>
-    </header>
-    <!-- End Header Section-->
-
-    <!-- BEGIN HERO SECTION -->
-    <div class="relative items-center justify-center w-full overflow-x-hidden lg:pt-40 lg:pb-40 xl:pt-40 xl:pb-64">
-        <div
-            class="container flex flex-col items-center justify-between h-full max-w-6xl px-8 mx-auto -mt-32 lg:flex-row xl:px-0">
-            <div
-                class="z-30 flex flex-col items-center w-full max-w-xl pt-48 text-center lg:items-start lg:w-1/2 lg:pt-20 xl:pt-40 lg:text-left">
-                <h1 class="relative mb-4 text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8">About</h1>
-                <p class="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Choice Coin is a governance token and open source software for decentralized voting. The Choice Coin Network is prioritizing democracy, and will incentivize its participants
-            to help it fundamentally change how decisions are made on a large scale. Choice Coin solves the decentralized voting problem by introducing a digital asset for voting on a distributed ledger.</p>
-            <br>
-            <p class="pr-0 mb-8 text-base text-gray-600 sm:text-lg xl:text-xl lg:pr-20">Choice Coin is also entirely open-source, with no formal structure or entity attached to it. Fortior Blockchain, a startup building on Algorand, is the team who developed Choice Coin. However, further development and leadership has become entirely open source. As time goes on, Foritor hopes to further decentralize the Choice Coin Network and allow the community to fully take it over.</p>
-
-                <!-- Integrates with section -->
-                <svg class="absolute left-0 max-w-md mt-24 -ml-64 left-svg" viewBox="0 0 423 423"
-                    xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                    <defs>
-                        <linearGradient x1="100%" y1="0%" x2="4.48%" y2="0%" id="linearGradient-1">
-                            <stop stop-color="#5C54DB" offset="0%" />
-                            <stop stop-color="#6A82E7" offset="100%" />
-                        </linearGradient>
-                        <filter x="-9.3%" y="-6.7%" width="118.7%" height="118.7%" filterUnits="objectBoundingBox"
-                            id="filter-3">
-                            <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1" />
-                            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
-                            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1" />
-                        </filter>
-                        <rect id="path-2" x="63" y="504" width="300" height="300" rx="40" />
-                    </defs>
-                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity=".9">
-                        <g id="Desktop-HD" transform="translate(-39 -531)">
-                            <g id="Hero" transform="translate(43 83)">
-                                <g id="Rectangle-6" transform="rotate(45 213 654)">
-                                    <use fill="#000" filter="url(#filter-3)" xlink:href="#path-2" />
-                                    <use fill="url(#linearGradient-1)" xlink:href="#path-2" />
+                        <!-- Integrates with section -->
+                        <svg class="absolute left-0 max-w-md mt-24 -ml-64 left-svg" viewBox="0 0 423 423"
+                            xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                            <defs>
+                                <linearGradient x1="100%" y1="0%" x2="4.48%" y2="0%" id="linearGradient-1">
+                                    <stop stop-color="#5C54DB" offset="0%" />
+                                    <stop stop-color="#6A82E7" offset="100%" />
+                                </linearGradient>
+                                <filter x="-9.3%" y="-6.7%" width="118.7%" height="118.7%" filterUnits="objectBoundingBox"
+                                    id="filter-3">
+                                    <feOffset dy="8" in="SourceAlpha" result="shadowOffsetOuter1" />
+                                    <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+                                    <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"/>
+                                </filter>
+                                <rect id="path-2" x="63" y="504" width="300" height="300" rx="40" />
+                            </defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity=".9">
+                                <g id="Desktop-HD" transform="translate(-39 -531)">
+                                    <g id="Hero" transform="translate(43 83)">
+                                        <g id="Rectangle-6" transform="rotate(45 213 654)">
+                                            <use fill="#000" filter="url(#filter-3)" xlink:href="#path-2"/>
+                                            <use fill="url(#linearGradient-1)" xlink:href="#path-2"/>
+                                        </g>
+                                    </g>
                                 </g>
                             </g>
-                        </g>
-                    </g>
-                </svg>
+                        </svg>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+            <script src="res/js/global_scripts.js"></script>
+            <script src="res/js/bootstrap.bundle.min.js"></script>
+            <script src="res/js/fontawesome.min.js"></script>
+            <script src="res/js/jquery.min.js"></script>
+        </body>
+    </html>
