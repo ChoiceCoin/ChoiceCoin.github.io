@@ -535,3 +535,32 @@ IMAGES
   .lg-menu-ico{display: none;}
   .sm-menu-ico{display: inline;}
 }
+
+/* FOOTER */
+footer{
+  display: flex;
+  border-top: 2px solid rgb(99, 87, 87);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer > f1{
+  font-size: large;
+}
+
+footer > div{
+  margin-top: 7px;
+}
+
+footer > div > a:nth-child(1){
+  margin-left: 0;
+}
+
+footer > div > a{
+  margin-left: 15px;
+  font-size: 30px;
+}
+
