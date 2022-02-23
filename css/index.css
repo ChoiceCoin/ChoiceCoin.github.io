@@ -40,12 +40,22 @@
   .inner-wrapper h2 {
       font-size: 25px !important;
   }
+  #img {
+      width: 35px !important ;
+  }
 }
 
 @media screen and (max-width: 500px) and (min-width: 300px) {
     .inner-wrapper h2 {
         font-size: 20px !important;
     }
+}
+
+@media (max-width: 768.98px){
+    .contributions .each-card h3 {
+        font-size: 27px !important;
+    }
+
 }
 
 
