@@ -79,11 +79,6 @@
                   >Docs</a
                 >
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./pages/participate.html"
-                  >Participate</a
-                >
-              </li>
             </ul>
           </div>
         </div>
@@ -422,7 +417,6 @@
         .then((res) => res.json())
         .then((data) => {
           let real = data.filter((each) => chosen.includes(each.name));
-          console.log(real);
           real.map((each) => {
             cardsContainer.innerHTML += `
             <div class="col col-lg-6 mt-4">
